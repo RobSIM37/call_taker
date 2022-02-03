@@ -1,0 +1,116 @@
+/* Begin Flex-Box Settings */
+
+main, #columns, section, .column {
+    display: flex;
+}
+
+main, section, .column {
+    flex-direction: column;
+}
+
+#columns {
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+h1 {
+    align-self: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+}
+
+button {
+    align-self: flex-end;
+}
+
+/* End Flex-Box Settings */
+/* Begin Margin Settings */
+
+h1, h2, section {
+    margin-bottom: 20px;
+}
+
+section, form {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.column, ul {
+    padding: 10px;
+}
+
+span {
+    padding: 3px;
+}
+
+section>span {
+    margin-bottom: 5px;
+}
+
+#needsLabel {
+    margin-bottom: 50px;
+}
+
+/* End Margin Settings */
+/* Begin Size Settings */
+
+h1 {
+    font-size: 80px;
+    width: 600px;
+}
+
+span {
+    font-size: 20px;
+}
+
+label {
+    
+    width: 150px;
+    
+}
+
+button {
+    width: 100px;
+}
+
+span {
+    width: 170px;
+}
+
+h2 {
+    font-size: 40px;
+    width: 300px;
+}
+
+/* End Size Settings */
+/* Begin Boarders and Color Settings */
+
+h1, h2, .column, span {
+
+    border: 2px solid black;
+
+}
+
+h1, h2, span {
+
+    background-color: red;
+    color: white;
+
+}
+
+/* End Boarders and Color Settings */
+/* Begin Cursor Settings */
+
+li {
+    cursor: pointer;
+}
+
+/* End Cursor Settings */
