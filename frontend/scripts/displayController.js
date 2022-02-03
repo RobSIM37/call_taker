@@ -73,6 +73,8 @@ const clearInputFields=()=> {
 
 const populateInputFields=callObj=> {
 
+    clearInputFields();
+
     currentCallId = callObj.call_id;
 
     lastName.value = callObj.last_name;

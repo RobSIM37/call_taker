@@ -90,6 +90,10 @@ h2 {
     width: 300px;
 }
 
+#callList>li {
+    font-size: 35px;
+}
+
 /* End Size Settings */
 /* Begin Boarders and Color Settings */
 
